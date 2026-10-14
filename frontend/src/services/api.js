@@ -1,4 +1,4 @@
-const API_BASE = '/api';
+const API_BASE = 'https://qveue-backend.onrender.com/api';
 
 export async function request(endpoint, options = {}) {
   const token = localStorage.getItem('qveue_token');
