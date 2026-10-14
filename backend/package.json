@@ -1,0 +1,35 @@
+{
+  "name": "qveue-backend",
+  "version": "1.0.0",
+  "description": "QVeue Smart Queue Management System API & Real-time Server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "seed": "node src/utils/seedData.js"
+  },
+  "keywords": [
+    "queue",
+    "management",
+    "socket.io",
+    "express",
+    "realtime"
+  ],
+  "author": "QVeue Team",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.4.0",
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "jsqr": "^1.4.0",
+    "mongodb-memory-server": "^11.3.0",
+    "pngjs": "^7.0.0",
+    "qrcode": "^1.5.4"
+  }
+}
